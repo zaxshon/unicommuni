@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>unicommuni - Connect. Learn. Belong.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="unicommuni" width="50" />
+        <h1>unicommuni</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="forum.html">Student Forum</a>
+        <a href="marketplace.html">Marketplace</a>
+        <a href="events.html">Events</a>
+        <a href="login.html" class="btn-login">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Where Campus Clicks</h2>
+      <p>Connect with peers, sell textbooks, join events — all in one place.</p>
+      <a href="forum.html" class="btn-primary">Join the Conversation</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="feature">
+        <h3>Student Forum</h3>
+        <p>Discuss classes, clubs, and campus life.</p>
+      </div>
+      <div class="feature">
+        <h3>Marketplace</h3>
+        <p>Buy & sell textbooks, furniture, tickets.</p>
+      </div>
+      <div class="feature">
+        <h3>Events</h3>
+        <p>Discover workshops, parties, and meetups.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 unicommuni — <strong>Connect. Learn. Belong.</strong></p>
+    </div>
+  </footer>
+</body>
+</html>
