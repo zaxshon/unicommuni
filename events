@@ -1,0 +1,55 @@
+<!bb
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Events - unicommuni</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="unicommuni" width="50" />
+        <h1>unicommuni</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="forum.html">Student Forum</a>
+        <a href="marketplace.html">Marketplace</a>
+        <a href="events.html" class="active">Events</a>
+        <a href="login.html" class="btn-login">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h2>Campus Events</h2>
+      <p>Workshops, parties, hackathons — don’t miss out.</p>
+    </div>
+  </section>
+
+  <section class="events container">
+    <div class="event">
+      <h4>Hackathon 2025</h4>
+      <p>Nov 22 • 9AM • Comp Sci Bldg</p>
+      <span class="tag">Tech</span>
+    </div>
+    <div class="event">
+      <h4>Free Yoga @ Quad</h4>
+      <p>Every Friday • 12PM</p>
+      <span class="tag">Wellness</span>
+    </div>
+    <a href="#" class="btn-primary">Submit Event</a>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 unicommuni</p>
+    </div>
+  </footer>
+</body>
+</html>
