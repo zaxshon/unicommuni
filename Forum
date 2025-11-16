@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Forum - unicommuni</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="unicommuni" width="50" />
+        <h1>unicommuni</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="forum.html" class="active">Student Forum</a>
+        <a href="marketplace.html">Marketplace</a>
+        <a href="events.html">Events</a>
+        <a href="login.html" class="btn-login">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h2>Student Forum</h2>
+      <p>Ask questions, share tips, rant about profs.</p>
+    </div>
+  </section>
+
+  <section class="forum-list container">
+    <div class="post">
+      <h4>Anyone in CS 301? Need study group!</h4>
+      <p>By Alex • 2 hours ago • 12 replies</p>
+    </div>
+    <div class="post">
+      <h4>Free coffee @ library tomorrow 9AM</h4>
+      <p>By Sarah • 5 hours ago • 8 replies</p>
+    </div>
+    <a href="#" class="btn-primary">Start New Thread</a>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 unicommuni</p>
+    </div>
+  </footer>
+</body>
+</html>
