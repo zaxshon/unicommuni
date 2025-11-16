@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marketplace - unicommuni</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="unicommuni" width="50" />
+        <h1>unicommuni</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="forum.html">Student Forum</a>
+        <a href="marketplace.html" class="active">Marketplace</a>
+        <a href="events.html">Events</a>
+        <a href="login.html" class="btn-login">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h2>Campus Marketplace</h2>
+      <p>Buy, sell, trade — student to student.</p>
+    </div>
+  </section>
+
+  <section class="listings container">
+    <div class="item">
+      <img src="https://via.placeholder.com/100" alt="book" />
+      <h4>Calculus Textbook - $40</h4>
+      <p>Like new • Pick up at Eng Bldg</p>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/100" alt="chair" />
+      <h4>IKEA Desk Chair - $25</h4>
+      <p>Moving sale • DM to buy</p>
+    </div>
+    <a href="#" class="btn-primary">Post Item</a>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 unicommuni</p>
+    </div>
+  </footer>
+</body>
+</html>
